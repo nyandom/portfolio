@@ -12,6 +12,8 @@ body {
   padding: 0;
   overflow: hidden;
   position: relative;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 #loading-gif {
