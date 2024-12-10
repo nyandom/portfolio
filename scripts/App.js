@@ -30,8 +30,8 @@ for (let i = 0; i < gridItems.length; i++) {
       content.style.backgroundColor = "rgba(25, 25, 25, 0.6)";
       content.style.padding = "20px";
       content.style.borderRadius = "10px";
-      content.style.width = "300px";
-      content.style.height = "35px";
+      content.style.width = "320px";
+      content.style.height = "20px";
       content.style.fontFamily = "Monsterrat, sans-serif";
       popupContainer.appendChild(content);
     } else if (itemNumber === "2") {
@@ -62,12 +62,12 @@ for (let i = 0; i < gridItems.length; i++) {
       header.innerText = "Technical Skills";
       const content = document.createElement("div");
       content.innerHTML =
-        "I am proficient in HTML, CSS, and JavaScript, with solid experience in front-end development. I am skilled in using modern JavaScript frameworks and libraries, including React and Vue.js, and I have hands-on experience with the MERN stack (MongoDB, Express, React, Node.js) for full-stack development. I am also familiar with version control with Git.";
+        "I am proficient in HTML, CSS, and JavaScript, with solid experience in front-end development. I am skilled in using modern JavaScript frameworks and libraries, including React and Vue.js, and I have hands-on experience with the MERN stack (MongoDB, Express, React, Node.js) for full-stack development. I am experienced in version control with Git, enabling efficient collaboration and code management.";
       content.style.backgroundColor = "rgba(25, 25, 25, 0.6)";
       content.style.padding = "20px";
       content.style.borderRadius = "10px";
       content.style.width = "450px";
-      content.style.height = "110px";
+      content.style.height = "120px";
       content.style.fontFamily = "Monsterrat, sans-serif";
       popupContainer.appendChild(content);
     } else {
