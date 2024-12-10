@@ -43,8 +43,9 @@ for (let i = 0; i < gridItems.length; i++) {
       content.style.padding = "20px";
       content.style.borderRadius = "10px";
       content.style.width = "500px";
-      content.style.height = "164px";
+      content.style.height = "195px";
       content.style.fontFamily = "Monsterrat, sans-serif";
+      content.style.lineHeight = "23px";
       popupContainer.appendChild(content);
     } else if (itemNumber === "3") {
       header.innerText = "Projects";
@@ -57,6 +58,7 @@ for (let i = 0; i < gridItems.length; i++) {
       content.style.width = "300px";
       content.style.height = "50px";
       content.style.fontFamily = "Monsterrat, sans-serif";
+      content.style.lineHeight = "23px";
       popupContainer.appendChild(content);
     } else if (itemNumber === "4") {
       header.innerText = "Technical Skills";
@@ -67,8 +69,9 @@ for (let i = 0; i < gridItems.length; i++) {
       content.style.padding = "20px";
       content.style.borderRadius = "10px";
       content.style.width = "450px";
-      content.style.height = "120px";
+      content.style.height = "150px";
       content.style.fontFamily = "Monsterrat, sans-serif";
+      content.style.lineHeight = "23px";
       popupContainer.appendChild(content);
     } else {
       const content = document.createElement("p");
