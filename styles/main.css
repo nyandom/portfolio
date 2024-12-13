@@ -2,7 +2,7 @@ body {
   cursor: crosshair;
   background-color: rgb(25, 25, 25);
   color: white;
-  font-family: "Monsterrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,7 +61,6 @@ header {
 }
 
 header h1 {
-  font-family: "Pixelify Sans", sans-serif;
   color: #fefefe;
   text-align: center;
   margin: 0;
@@ -86,22 +85,21 @@ header span {
   display: grid;
   position: absolute;
   top: 30px;
-  gap: 10px;
+  gap: 5px;
   grid-template-columns: repeat(4, 1fr);
   justify-content: center;
   align-items: center;
-  font-family: "Monsterrat", sans-serif;
   font-weight: 100;
   background-color: rgba(26, 26, 26, 0.6);
-  padding: 0;
+  padding: 5px;
   margin: 10px;
   max-width: 200px;
-  max-height: 100px;
+  max-height: 50px;
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
-  border: 1px solid rgba(119, 119, 119, 0.2);
+  border: 1px solid rgba(127, 127, 127, 0.3);
   color: rgb(255, 255, 255);
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .grid-container::-webkit-scrollbar {
@@ -124,10 +122,11 @@ header span {
 }
 
 .grid-item {
-  font-size: 15px;
+  font-size: 17px;
 }
 
 a {
+  font-weight: 400;
   color: rgb(154, 154, 154);
   text-decoration: none;
   border: 1px solid rgba(0, 0, 0, 0);

@@ -38,7 +38,7 @@ for (let i = 0; i < gridItems.length; i++) {
       header.innerText = "About me";
       const content = document.createElement("div");
       content.innerText =
-        "Hi, I'm nyan! A passionate web developer with over 4 years of experience, I specialize in creating dynamic, user-friendly applications. Web development isn’t just my career, it's my life! I’m constantly improving my skills. My expertise lies in the MERN stack (MongoDB, Express, React, Node.js), and I love using these tools to build stylish and efficient websites.\nOutside of coding, I enjoy listening to music and hanging out with friends, but my mind is always focused on finding new ways to be creative when building websites.";
+        "Hi, I'm Nyan! A passionate web developer with over 4 years of experience, I specialize in creating dynamic, user-friendly applications. Web development isn’t just my career, it's my life! I’m constantly improving my skills. My expertise lies in the MERN stack (MongoDB, Express, React, Node.js), and I love using these tools to build stylish and efficient websites.\nOutside of coding, I enjoy listening to music and hanging out with friends, but my mind is always focused on finding new ways to be creative when building websites.";
       content.style.backgroundColor = "rgba(25, 25, 25, 0.6)";
       content.style.padding = "20px";
       content.style.borderRadius = "10px";
