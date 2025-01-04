@@ -54,7 +54,7 @@ body::after {
 
 header {
   position: absolute;
-  top: 10px;
+  top: 50px;
   left: 50px;
   width: 200px;
   height: 100px;
@@ -65,7 +65,7 @@ header h1 {
   text-align: center;
   margin: 0;
   padding: 0;
-  font-size: 100px;
+  font-size: 80px;
 }
 
 header span {
@@ -82,47 +82,29 @@ header span {
 }
 
 .grid-container {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   position: absolute;
-  top: 30px;
+  top: 50px;
   gap: 5px;
-  grid-template-columns: repeat(4, 1fr);
+  right: 50px;
   justify-content: center;
-  align-items: center;
+  align-items:end;
   font-weight: 100;
-  background-color: rgba(26, 26, 26, 0.6);
+  background-color: rgba(26, 26, 26, 0.2);
   padding: 5px;
   margin: 10px;
   max-width: 200px;
-  max-height: 50px;
-  backdrop-filter: blur(2px);
-  -webkit-backdrop-filter: blur(2px);
-  border: 1px solid rgba(127, 127, 127, 0.3);
+  max-height: 200px;
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  border: 1px solid rgba(146, 146, 146, 0.4);
   color: rgb(255, 255, 255);
   border-radius: 5px;
 }
 
-.grid-container::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
-}
-
-.grid-container::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.5);
-  border-radius: 5px;
-}
-
-.grid-container::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.8);
-}
-
-.grid-container::-webkit-scrollbar-track {
-  background: rgba(132, 132, 132, 0.2);
-  border-radius: 5px;
-}
-
 .grid-item {
-  font-size: 17px;
+  font-size: 13px;
 }
 
 a {
